@@ -6,11 +6,11 @@ _year = '2018'
 signalScriptCfg = {
   
   # Setup
-  'inputWSDir':'/home/users/fsetti/ic_flashgg/CMSSW_10_2_13/src/flashggFinalFit/files_systs/%s/ws_signal_%s/'%(_tag,_year),
+  'inputWSDir':'/home/users/fsetti/HHggTauTau/coupling_scan/CMSSW_10_2_13/src/flashggFinalFit/files_systs/%s/ws_signal_%s/'%(_tag,_year),
   'procs':'auto', # if auto: inferred automatically from filenames
   'cats':'auto', # if auto: inferred automatically from (0) workspace
   'ext':'%s_%s'%(_tag,_year),
-  'analysis':'ggtt_nonRes', # To specify which replacement dataset mapping (defined in ./python/replacementMap.py)
+  'analysis':'kl_scan', # To specify which replacement dataset mapping (defined in ./python/replacementMap.py)
   'year':'%s'%_year, # Use 'combined' if merging all years: not recommended
   'massPoints':'125',
 
